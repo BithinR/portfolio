@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- ============================================================
+       SEO — EDIT YOUR TITLE & DESCRIPTION HERE
+       ============================================================ -->
+  <title>Bithin Krishna Radhakrishnan — Cybersecurity Graduate & Aspiring SOC Analyst</title>
+  <meta name="description" content="Cybersecurity portfolio of Bithin Krishna Radhakrishnan — cybersecurity graduate (Distinction, University of Wollongong in Dubai), aspiring SOC Analyst. Network security, ethical hacking, cloud security and hands-on security projects." />
+  <meta name="author" content="Bithin Krishna Radhakrishnan" />
+
+  <!-- Open Graph (how the site looks when shared on LinkedIn/social) -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Bithin Krishna Radhakrishnan — Cybersecurity Graduate & Aspiring SOC Analyst" />
+  <meta property="og:description" content="Cybersecurity portfolio — network security, ethical hacking, cloud security and hands-on SOC projects." />
+  <meta property="og:url" content="https://github.com/BithinR" />
+
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+
+<body>
+  <!-- ============================================================
+       BACKGROUND FX LAYERS (decorative only, hidden from screen readers)
+       ============================================================ -->
+  <canvas id="fx-particles" class="fx-layer" aria-hidden="true"></canvas>
+  <canvas id="fx-stream" class="fx-layer" aria-hidden="true"></canvas>
+  <div class="fx-grid" aria-hidden="true"></div>
+  <div class="fx-scanlines" aria-hidden="true"></div>
+  <div class="fx-vignette" aria-hidden="true"></div>
+  <div class="fx-cursor" id="fx-cursor" aria-hidden="true"></div>
+
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- ============================================================
+       NAVIGATION — edit the logo text below if you wish
+       ============================================================ -->
+  <header class="site-header">
+    <nav class="nav container" aria-label="Primary navigation">
+      <a class="nav__brand" href="#hero"><span class="brand-mono">&gt;_</span> BKR<span class="brand-accent">//sec</span></a>
+      <button class="nav__toggle" id="nav-toggle" aria-expanded="false" aria-controls="nav-menu">
+        <span class="nav__toggle-bar"></span>
+        <span class="nav__toggle-bar"></span>
+        <span class="nav__toggle-bar"></span>
+        <span class="sr-only">Menu</span>
+      </button>
+      <ul class="nav__menu" id="nav-menu">
+        <li><a class="nav__link" href="#about">About</a></li>
+        <li><a class="nav__link" href="#skills">Skills</a></li>
+        <li><a class="nav__link" href="#projects">Projects</a></li>
+        <li><a class="nav__link" href="#experience">Experience</a></li>
+        <li><a class="nav__link" href="#education">Education</a></li>
+        <li><a class="nav__link" href="#certifications">Certifications</a></li>
+        <li><a class="nav__link" href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main">
+
+    <!-- ============================================================
+         HERO SECTION
+         Edit: YOUR NAME, headline roles, summary, buttons, location
+         ============================================================ -->
+    <section id="hero" class="hero" aria-label="Introduction">
+      <div class="container hero__inner">
+        <p class="hero__eyebrow mono">// CYBERSECURITY_PORTFOLIO //</p>
+
+        <!-- MY NAME -->
+        <h1 class="hero__name glitch" data-text="BITHIN KRISHNA RADHAKRISHNAN">BITHIN KRISHNA RADHAKRISHNAN</h1>
+
+        <!-- MY HEADLINE (typing effect cycles through these roles) -->
+        <p class="hero__role">
+          <span class="role-prefix">I am a</span>
+          <span id="typed-role" class="role-typed"></span><span class="caret" aria-hidden="true">▍</span>
+        </p>
+
+        <!-- MY CONCISE INTRODUCTION -->
+        <p class="hero__summary">
+          Cybersecurity graduate (Distinction) building a career in security operations — turning
+          network traffic, security events and threat models into clear, defensible analysis.
+        </p>
+
+        <!-- MY PRIMARY LINKS / BUTTONS -->
+        <div class="hero__actions">
+          <a class="btn btn--primary" href="https://github.com/BithinR" target="_blank" rel="noopener noreferrer">GitHub</a>
+          <a class="btn btn--primary" href="https://www.linkedin.com/in/bkr95" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+          <a class="btn btn--ghost" href="#projects">View Projects</a>
+          <a class="btn btn--ghost" href="mailto:rbithin10@gmail.com">Email Me</a>
+        </div>
+
+        <p class="hero__meta mono">Dubai, UAE &nbsp;·&nbsp; Open to SOC Analyst roles &amp; internships</p>
+      </div>
+      <a class="hero__scroll" href="#about" aria-label="Scroll to About section"><span class="scroll-chevron" aria-hidden="true"></span></a>
+    </section>
+
+    <!-- ============================================================
+         ABOUT ME
+         Edit the paragraphs below. Keep it concise — 2-4 sentences.
+         ============================================================ -->
+    <section id="about" class="section" aria-labelledby="about-heading">
+      <div class="container">
+        <h2 class="section__title reveal">About <span class="accent">Me</span></h2>
+        <div class="about__grid">
+          <div class="about__copy reveal">
+            <p>
+              I'm a cybersecurity graduate from the University of Wollongong in Dubai, focused on
+              defensive security and security operations. My background spans network security,
+              ethical hacking, cloud security and applied machine-learning for security — put into
+              practice through university projects, a hands-on ethical-hacking internship and my own
+              self-built SOC analysis tools.
+            </p>
+            <p>
+              I'm working toward an entry-level <strong>SOC Analyst</strong> role where I can combine
+              practical lab work with a drive to understand real-world threat landscapes — and keep
+              learning alongside experienced practitioners.
+            </p>
+            <p class="about__focus mono">
+              Focus: SOC / Security Operations · Network Security · Cloud Security · Security Automation
+            </p>
+          </div>
+          <div class="about__stats reveal">
+            <div class="stat tilt">
+              <span class="stat__num mono">7+</span>
+              <span class="stat__label">Hands-on projects</span>
+            </div>
+            <div class="stat tilt">
+              <span class="stat__num mono">Distinction</span>
+              <span class="stat__label">B. Computer Science</span>
+            </div>
+            <div class="stat tilt">
+              <span class="stat__num mono">5</span>
+              <span class="stat__label">Languages</span>
+            </div>
+            <div class="stat tilt">
+              <span class="stat__num mono">SOC</span>
+              <span class="stat__label">Career focus</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         SKILLS
+         Edit the categories & tags below. Use real skills only.
+         ============================================================ -->
+    <section id="skills" class="section section--alt" aria-labelledby="skills-heading">
+      <div class="container">
+        <h2 class="section__title reveal">Technical <span class="accent">Skills</span></h2>
+        <p class="section__lede reveal">Tools and technologies I've actually worked with.</p>
+
+        <div class="skills__grid">
+          <article class="skill-group reveal">
+            <h3 class="skill-group__title mono">01 · Security Operations &amp; Network</h3>
+            <ul class="tags">
+              <li>VLAN Segmentation</li><li>ACLs</li><li>IPSec VPNs</li><li>Zone-Based Firewalls</li>
+              <li>DMZ</li><li>Email Hardening (SPF/DKIM/DMARC)</li><li>HTTPS</li><li>Threat Modelling</li>
+              <li>Incident Reporting &amp; Response</li><li>SIEM / SOAR (foundational)</li>
+            </ul>
+          </article>
+
+          <article class="skill-group reveal">
+            <h3 class="skill-group__title mono">02 · Programming &amp; Scripting</h3>
+            <ul class="tags">
+              <li>Python</li><li>HTML / CSS / JavaScript</li><li>SQL / MySQL</li><li>pandas</li>
+              <li>numpy</li><li>scikit-learn</li><li>TF-IDF</li><li>Machine Learning</li>
+            </ul>
+          </article>
+
+          <article class="skill-group reveal">
+            <h3 class="skill-group__title mono">03 · Cloud &amp; Backend</h3>
+            <ul class="tags">
+              <li>FastAPI</li><li>REST APIs</li><li>PostgreSQL</li><li>AWS (EC2 / RDS)</li>
+              <li>JWT</li><li>RBAC</li><li>AES-256</li><li>HIPAA / GDPR-aligned practices</li>
+            </ul>
+          </article>
+
+          <article class="skill-group reveal">
+            <h3 class="skill-group__title mono">04 · Security Tools</h3>
+            <ul class="tags">
+              <li>Cisco Packet Tracer</li><li>Wireshark</li><li>Zenmap</li><li>theHarvester</li>
+              <li>Wafw00f</li><li>Git</li><li>VS Code</li>
+            </ul>
+          </article>
+
+          <article class="skill-group reveal">
+            <h3 class="skill-group__title mono">05 · Collaboration &amp; Design</h3>
+            <ul class="tags">
+              <li>Figma</li><li>Flutter (collab)</li><li>React (collab)</li><li>MS Office</li><li>Adobe Photoshop</li>
+            </ul>
+          </article>
+
+          <article class="skill-group reveal">
+            <h3 class="skill-group__title mono">06 · Languages</h3>
+            <ul class="tags">
+              <li>English</li><li>Malayalam</li><li>Tamil</li><li>Hindi</li><li>Arabic</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         CYBERSECURITY PROJECTS
+         Each project is a <details> card. Click to expand the story.
+         To ADD a project, copy one card block below and edit it.
+         ============================================================ -->
+    <section id="projects" class="section" aria-labelledby="projects-heading">
+      <div class="container">
+        <h2 class="section__title reveal">Security <span class="accent">Projects</span></h2>
+        <p class="section__lede reveal">University coursework and self-built labs — expand any card for the full story.</p>
+
+        <div class="projects__grid">
+
+          <!-- PROJECT 1 -->
+          <details class="project-card reveal">
+            <summary class="project-card__head">
+              <span class="project-card__domain mono">Cloud &amp; Application Security</span>
+              <h3 class="project-card__title">Adaptiv Health — AI Cardiovascular Monitoring System</h3>
+              <p class="project-card__desc">Capstone backend for an AI cardiac-rehab platform that securely ingests wearable vitals and scores patient risk in real time.</p>
+              <ul class="project-card__tech">
+                <li>FastAPI</li><li>Python</li><li>PostgreSQL</li><li>AWS (EC2/RDS)</li><li>TensorFlow Lite</li><li>JWT</li><li>RBAC</li><li>AES-256</li>
+              </ul>
+              <span class="project-card__cta mono">View Project ▸</span>
+            </summary>
+            <div class="project-card__body">
+              <div class="story">
+                <div class="story__item"><span class="story__label mono">Challenge</span><p>Build the secure backend microservices for an AI-driven cardiac-rehab platform that ingests wearable vitals (HR, SpO₂, BP, HRV) and analyses them in real time to keep patients within safe exercise zones.</p></div>
+                <div class="story__item"><span class="story__label mono">Environment</span><p>AWS (EC2 / RDS) hosting PostgreSQL; FastAPI microservices consumed by a Flutter patient app and a React clinician dashboard.</p></div>
+                <div class="story__item"><span class="story__label mono">What I Built</span><p>Secure FastAPI APIs with JWT authentication, role-based access control (RBAC) and AES-256 encryption of protected health information aligned with HIPAA/GDPR. Integrated Random Forest and TensorFlow Lite edge models for risk scoring and personalised exercise recommendations, resolving data-leakage issues to achieve high recall on safety-critical events. Exposed REST endpoints for live monitoring, alerts and longitudinal trend dashboards.</p></div>
+                <div class="story__item"><span class="story__label mono">Security Concepts</span><p>JWT auth, RBAC, AES-256 PHI encryption, HIPAA/GDPR-aligned data handling, secure API design, data-leakage prevention.</p></div>
+                <div class="story__item"><span class="story__label mono">Result</span><p>A working full-stack platform combining edge ML models with a secured API layer (capstone project, CSIT321).</p></div>
+                <div class="story__item"><span class="story__label mono">What I Learned</span><p>How to design secure API boundaries and protect sensitive health data end-to-end.</p></div>
+              </div>
+              <div class="project-card__links">
+                <a class="btn btn--small" href="https://github.com/BithinR" target="_blank" rel="noopener noreferrer">View GitHub</a>
+                <!-- TODO: add a YouTube walkthrough / demo link here if you have one -->
+              </div>
+            </div>
+          </details>
+
+          <!-- PROJECT 2 -->
+          <details class="project-card reveal">
+            <summary class="project-card__head">
+              <span class="project-card__domain mono">Network Security</span>
+              <h3 class="project-card__title">MediCare Clinic Secure Network</h3>
+              <p class="project-card__desc">Designed a secure multi-site healthcare network with segmented VLANs, ACLs, IPSec VPNs and a DMZ zone-based firewall.</p>
+              <ul class="project-card__tech">
+                <li>Cisco Packet Tracer</li><li>VLANs</li><li>ACLs</li><li>IPSec VPN</li><li>Zone-Based Firewall</li><li>RADIUS</li><li>HTTPS</li>
+              </ul>
+              <span class="project-card__cta mono">View Project ▸</span>
+            </summary>
+            <div class="project-card__body">
+              <div class="story">
+                <div class="story__item"><span class="story__label mono">Challenge</span><p>Design a secure multi-site network for a healthcare provider (clinics, labs, pharmacies and IoT medical devices), mapping ransomware, DDoS and data-theft threats against downtime and revenue impact.</p></div>
+                <div class="story__item"><span class="story__label mono">Environment</span><p>Simulated multi-site topology in Cisco Packet Tracer.</p></div>
+                <div class="story__item"><span class="story__label mono">What I Built</span><p>VLAN segmentation (admin, HR, doctors, IoT, labs, pharmacy, guests, DMZ, wireless, branch) and ACLs limiting ICMP/host discovery to reduce the attack surface. Configured an IPSec site-to-site VPN, HTTPS-only EMR access, and DMZ zone-based firewall policies controlling flows between internal networks, the DMZ and external partners. Hardened email and remote access by placing servers in a DMZ and documenting SPF, DKIM, DMARC, MFA and secure-protocol practices.</p></div>
+                <div class="story__item"><span class="story__label mono">Security Concepts</span><p>Network segmentation, ACLs, IPSec VPN, zone-based firewalls, DMZ, defence-in-depth, email security (SPF/DKIM/DMARC/MFA).</p></div>
+                <div class="story__item"><span class="story__label mono">Result</span><p>A documented secure network design that reduces the attack surface on clinical systems (CSCI368).</p></div>
+                <div class="story__item"><span class="story__label mono">What I Learned</span><p>How to map threats to business impact and apply segmentation as a practical control.</p></div>
+              </div>
+              <div class="project-card__links">
+                <a class="btn btn--small" href="https://github.com/BithinR" target="_blank" rel="noopener noreferrer">View GitHub</a>
+                <!-- TODO: add screenshots of the Packet Tracer topology -->
+              </div>
+            </div>
+          </details>
+
+          <!-- PROJECT 3 -->
+          <details class="project-card reveal">
+            <summary class="project-card__head">
+              <span class="project-card__domain mono">Security Automation / ML</span>
+              <h3 class="project-card__title">Password Strength Advisor — ML for Password Security</h3>
+              <p class="project-card__desc">Trained an ML classifier to grade password strength, reaching ~87.7% accuracy with safety-first downgrade logic.</p>
+              <ul class="project-card__tech">
+                <li>Python</li><li>scikit-learn</li><li>Logistic Regression</li><li>TF-IDF</li><li>pandas</li><li>numpy</li>
+              </ul>
+              <span class="project-card__cta mono">View Project ▸</span>
+            </summary>
+            <div class="project-card__body">
+              <div class="story">
+                <div class="story__item"><span class="story__label mono">Challenge</span><p>Build an AI-powered password strength classifier (weak / medium / strong) that is useful and safe for real users.</p></div>
+                <div class="story__item"><span class="story__label mono">Environment</span><p>Python with scikit-learn, trained on 50,000+ synthetic and common leaked passwords.</p></div>
+                <div class="story__item"><span class="story__label mono">What I Built</span><p>Engineered character-level TF-IDF features with a one-vs-rest multi-class Logistic Regression model, achieving ~87.7% accuracy vs a 70–75% baseline. Added leaked-password checks and conservative downgrade logic that prioritises user safety.</p></div>
+                <div class="story__item"><span class="story__label mono">What I Tested</span><p>Evaluated with confusion matrices, precision, recall, F1 and 5-fold cross-validation; benchmarked against Random Forest, SVM and neural-network models.</p></div>
+                <div class="story__item"><span class="story__label mono">Security Concepts</span><p>ML for security, feature engineering, model evaluation, safety-first design.</p></div>
+                <div class="story__item"><span class="story__label mono">Result</span><p>A working classifier that outperforms the baseline while deliberately erring toward caution (CSIT375).</p></div>
+              </div>
+              <div class="project-card__links">
+                <a class="btn btn--small" href="https://github.com/BithinR" target="_blank" rel="noopener noreferrer">View GitHub</a>
+              </div>
+            </div>
+          </details>
+
+          <!-- PROJECT 4 (self-built) -->
+          <details class="project-card reveal">
+            <summary class="project-card__head">
+              <span class="project-card__domain mono">SOC / Network Security</span>
+              <h3 class="project-card__title">Network Traffic Triage Tool</h3>
+              <p class="project-card__desc">Browser tool that applies a transparent rule-based detection engine to Wireshark exports to surface traffic worth investigating.</p>
+              <ul class="project-card__tech">
+                <li>HTML</li><li>CSS</li><li>JavaScript</li><li>Wireshark (CSV)</li>
+              </ul>
+              <span class="project-card__cta mono">View Project ▸</span>
+            </summary>
+            <div class="project-card__body">
+              <div class="story">
+                <div class="story__item"><span class="story__label mono">Challenge</span><p>Help students and enthusiasts think like SOC analysts when reviewing network traffic — without pretending to be an IDS.</p></div>
+                <div class="story__item"><span class="story__label mono">Environment</span><p>Browser-based, 100% client-side JavaScript (no server, no telemetry).</p></div>
+                <div class="story__item"><span class="story__label mono">What I Built</span><p>Parses Wireshark CSV exports and applies 7 adjustable detection rules (port scanning, high ICMP, DNS volume, TCP SYN, etc.), providing both malicious AND benign explanations for each finding.</p></div>
+                <div class="story__item"><span class="story__label mono">Security Concepts</span><p>Traffic analysis, detection thresholds, "an anomaly is a starting point, not proof", privacy-by-design.</p></div>
+                <div class="story__item"><span class="story__label mono">What I Learned</span><p>How detection rules produce false positives and why thresholds must be tuned to the environment.</p></div>
+              </div>
+              <div class="project-card__links">
+                <a class="btn btn--small" href="https://github.com/BithinR" target="_blank" rel="noopener noreferrer">View GitHub</a>
+              </div>
+            </div>
+          </details>
+
+          <!-- PROJECT 5 (self-built) -->
+          <details class="project-card reveal">
+            <summary class="project-card__head">
+              <span class="project-card__domain mono">SOC / Social Engineering</span>
+              <h3 class="project-card__title">Phishing Email Analyser</h3>
+              <p class="project-card__desc">Scores a suspicious email 0–100 for phishing warning signs and explains each one in plain English.</p>
+              <ul class="project-card__tech">
+                <li>HTML</li><li>CSS</li><li>JavaScript</li>
+              </ul>
+              <span class="project-card__cta mono">View Project ▸</span>
+            </summary>
+            <div class="project-card__body">
+              <div class="story">
+                <div class="story__item"><span class="story__label mono">Challenge</span><p>Detect common phishing and social-engineering indicators in the text of a suspicious email.</p></div>
+                <div class="story__item"><span class="story__label mono">Environment</span><p>Browser-based, 100% client-side JavaScript (no server, works offline after load).</p></div>
+                <div class="story__item"><span class="story__label mono">What I Built</span><p>A risk score (0–100) with Low Risk / Suspicious / High Risk classification, plain-English explanations of every warning sign found, practical next-step recommendations, and six fictional sample emails for instant testing.</p></div>
+                <div class="story__item"><span class="story__label mono">Security Concepts</span><p>Phishing indicators, social-engineering awareness, risk scoring, privacy-by-design.</p></div>
+                <div class="story__item"><span class="story__label mono">What I Learned</span><p>How to break an analyst's intuition into discrete, explainable signals.</p></div>
+              </div>
+              <div class="project-card__links">
+                <a class="btn btn--small" href="https://github.com/BithinR" target="_blank" rel="noopener noreferrer">View GitHub</a>
+              </div>
+            </div>
+          </details>
+
+          <!-- PROJECT 6 (self-built) -->
+          <details class="project-card reveal">
+            <summary class="project-card__head">
+              <span class="project-card__domain mono">SOC / SIEM-adjacent</span>
+              <h3 class="project-card__title">Windows Security Event Log Triage Tool</h3>
+              <p class="project-card__desc">Turns Windows Security Event Log exports into an easy SOC-style triage report with a beginner Event ID cheat sheet.</p>
+              <ul class="project-card__tech">
+                <li>HTML</li><li>CSS</li><li>JavaScript</li><li>Windows Event Logs</li>
+              </ul>
+              <span class="project-card__cta mono">View Project ▸</span>
+            </summary>
+            <div class="project-card__body">
+              <div class="story">
+                <div class="story__item"><span class="story__label mono">Challenge</span><p>Teach Windows security-event triage and correlation for aspiring SOC analysts.</p></div>
+                <div class="story__item"><span class="story__label mono">Environment</span><p>Browser-based; ingests exported Windows Security Event Log CSVs (including the Message text).</p></div>
+                <div class="story__item"><span class="story__label mono">What I Built</span><p>Parses exported Windows Security events into a SOC-style triage report, with a plain-English Event ID reference (4624, 4625, 4688, 4720, 4726, 1102, 4104, 7045) and a step-by-step triage workflow.</p></div>
+                <div class="story__item"><span class="story__label mono">Security Concepts</span><p>Windows event triage, correlation, authentication/privilege activity, SIEM concepts.</p></div>
+                <div class="story__item"><span class="story__label mono">What I Learned</span><p>"One event rarely tells the whole story — analysts build context by correlating multiple events."</p></div>
+              </div>
+              <div class="project-card__links">
+                <a class="btn btn--small" href="https://github.com/BithinR" target="_blank" rel="noopener noreferrer">View GitHub</a>
+              </div>
+            </div>
+          </details>
+
+        </div>
+
+        <!-- Additional / smaller projects -->
+        <div class="projects__more reveal">
+          <h3 class="projects__more-title mono">Additional Projects</h3>
+          <ul class="mini-list">
+            <li><strong>PEAKGuard Secure Banking App</strong> — requirements &amp; design for a fraud-aware banking app (MFA, real-time monitoring, alerts, secure transaction limits).</li>
+            <li><strong>AdaptivHealth HCI Prototype</strong> — usability-focused interface for an allergy-monitoring app (vitals, emergency alerts, GPS hospital routing, caregiver notifications).</li>
+            <li><strong>Phishing Email Detection (Python)</strong> — scikit-learn classifier distinguishing phishing vs legitimate emails/URLs using content and URL features.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         EXPERIENCE
+         Edit this section if your experience changes.
+         ============================================================ -->
+    <section id="experience" class="section section--alt" aria-labelledby="experience-heading">
+      <div class="container">
+        <h2 class="section__title reveal">Experience</h2>
+        <div class="timeline">
+          <article class="timeline__item reveal">
+            <header class="timeline__head">
+              <div>
+                <h3 class="timeline__role">Ethical Hacking Intern</h3>
+                <p class="timeline__org">Networkwalks · South Africa</p>
+              </div>
+              <span class="timeline__date mono">2026</span>
+            </header>
+            <p class="timeline__desc">Hands-on offensive-security internship covering:</p>
+            <ul class="timeline__list">
+              <li>Penetration testing &amp; reconnaissance</li>
+              <li>Password cracking &amp; SQL injection</li>
+              <li>Scanning &amp; enumeration tools — Zenmap, theHarvester, Wafw00f, Google dorking</li>
+            </ul>
+            <p class="timeline__transfer mono">Transferable skills: methodical testing, analytical thinking, documentation</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         EDUCATION
+         Edit these entries with your real qualifications.
+         ============================================================ -->
+    <section id="education" class="section" aria-labelledby="education-heading">
+      <div class="container">
+        <h2 class="section__title reveal">Education</h2>
+        <div class="edu">
+          <article class="edu__item reveal">
+            <h3 class="edu__degree">Bachelor of Computer Science — Cybersecurity Major</h3>
+            <p class="edu__school">University of Wollongong in Dubai (QS Top 1%) · UAE</p>
+            <p class="edu__meta mono">Apr 2024 – Jul 2026 · Graduated with Distinction</p>
+            <p class="edu__course">Coursework: System Analysis · Data Management &amp; Security · Web Technologies · AI &amp; Cybersecurity · Network Security</p>
+          </article>
+          <article class="edu__item reveal">
+            <h3 class="edu__degree">Advanced Diploma — Biomedical Engineering Technology</h3>
+            <p class="edu__school">Centennial College · Toronto, Canada</p>
+            <p class="edu__meta mono">2015 – 2017</p>
+            <p class="edu__course">Coursework: Python · Electronics · Data Analysis · Robotics Club</p>
+          </article>
+          <article class="edu__item reveal">
+            <h3 class="edu__degree">Diploma in Animation</h3>
+            <p class="edu__school">Conestoga College · Waterloo, Canada</p>
+            <p class="edu__meta mono">2018 – 2020</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         CERTIFICATIONS
+         "Certifications" = formal, earned. "Training & Courses" = learning paths.
+         Edit / reorder as needed. Never list something you haven't earned.
+         ============================================================ -->
+    <section id="certifications" class="section section--alt" aria-labelledby="certs-heading">
+      <div class="container">
+        <h2 class="section__title reveal">Certifications</h2>
+
+        <h3 class="certs__subhead mono reveal">Formal Certifications</h3>
+        <ul class="certs-list reveal">
+          <li><span class="badge mono">SEC+</span> CompTIA Security+</li>
+          <li><span class="badge mono">CC</span> ISC2 Certified in Cybersecurity</li>
+        </ul>
+
+        <h3 class="certs__subhead mono reveal">Training &amp; Courses</h3>
+        <ul class="certs-list certs-list--muted reveal">
+          <li>AWS Certified Cloud Practitioner — Amazon</li>
+          <li>Fortinet Certified Fundamentals in Cybersecurity</li>
+          <li>MongoDB Developer Certification</li>
+          <li>Google Cybersecurity Professional Certificate — Coursera / Google</li>
+          <li>IBM Cybersecurity Analyst Fundamentals — IBM</li>
+          <li>Palo Alto Networks — Cloud Security Fundamentals</li>
+          <li>University of Colorado — DDoS Attacks &amp; Defenses; Cloud Security</li>
+          <li>DataCamp — Data Analyst Career Track; SQL Associate / SQL Specialist</li>
+          <li>Coursera — Foundations of Data; Data-Driven Decision Making; Prepare Data for Exploration</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         CONTACT / CONNECT
+         Edit your links here. Use placeholders [EMAIL]/[PHONE] if private.
+         ============================================================ -->
+    <section id="contact" class="section" aria-labelledby="contact-heading">
+      <div class="container contact">
+        <h2 class="section__title reveal">Let's <span class="accent">Connect</span></h2>
+        <p class="section__lede reveal">Open to SOC Analyst roles, internships and security discussions.</p>
+        <div class="contact__links reveal">
+          <a class="btn btn--primary" href="mailto:rbithin10@gmail.com">rbithin10@gmail.com</a>
+          <a class="btn btn--primary" href="https://www.linkedin.com/in/bkr95" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+          <a class="btn btn--primary" href="https://github.com/BithinR" target="_blank" rel="noopener noreferrer">GitHub</a>
+        </div>
+        <!-- TODO: add your phone number only if you want it public. Otherwise leave [PHONE] out. -->
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ============================================================
+       FOOTER
+       ============================================================ -->
+  <footer class="site-footer">
+    <div class="container footer__inner">
+      <p class="mono footer__name">&gt;_ Bithin Krishna Radhakrishnan</p>
+      <p class="footer__note">Cybersecurity graduate · Aspiring SOC Analyst · Dubai, UAE</p>
+      <p class="footer__copyright mono">© <span id="year">2026</span> Bithin Krishna Radhakrishnan</p>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
+
